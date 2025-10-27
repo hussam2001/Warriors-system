@@ -1,0 +1,117 @@
+WARRIORS GYM MANAGEMENT SYSTEM - SETUP INSTRUCTIONS
+====================================================
+
+QUICK START GUIDE FOR END USERS
+================================
+
+STEP 1: INSTALL NODE.JS
+------------------------
+1. Go to: https://nodejs.org/
+2. Click "Download Node.js (LTS)" - this is the green button
+3. Run the downloaded file and follow the installation wizard
+4. IMPORTANT: Restart your computer after installation
+
+STEP 2: DOWNLOAD THE SYSTEM
+----------------------------
+1. Download the "Warriors system" folder to your computer
+2. Extract it to a location like: C:\WarriorsGym\
+3. You should have a folder structure like:
+   C:\WarriorsGym\Warriors system\
+
+STEP 3: START THE SYSTEM
+-------------------------
+1. Navigate to the Warriors system folder
+2. Double-click on "start.bat"
+3. Wait for the system to start (this may take a few minutes the first time)
+4. Your web browser will open automatically
+5. If browser doesn't open, go to: http://localhost:3000
+
+STEP 4: LOGIN
+-------------
+Username: admin
+Password: warriors2024
+
+STEP 5: CHANGE PASSWORD (RECOMMENDED)
+-------------------------------------
+1. After logging in, go to Settings
+2. Change the admin password to something secure
+3. Save the changes
+
+USING THE SYSTEM
+================
+
+ADDING A NEW MEMBER:
+1. Click "Members" in the menu
+2. Click "Add New Member"
+3. Fill in all required fields (marked with *)
+4. Select membership duration and payment method
+5. Click "Add Member"
+6. The system will automatically create a payment record
+
+RECORDING A PAYMENT:
+1. Click "Payments" in the menu
+2. Click "Record Payment"
+3. Select a member from the dropdown
+4. Enter payment details
+5. Click "Record Payment"
+
+VIEWING REPORTS:
+1. Click "Reports" in the menu
+2. View revenue statistics and member analytics
+3. Export data to Excel or PDF if needed
+
+TROUBLESHOOTING
+===============
+
+PROBLEM: "npm is not recognized"
+SOLUTION: Install Node.js from https://nodejs.org/ and restart computer
+
+PROBLEM: "Port 3000 is already in use"
+SOLUTION: Close other applications or restart your computer
+
+PROBLEM: System won't start
+SOLUTION: 
+1. Make sure Node.js is installed
+2. Check internet connection
+3. Try running "start.bat" as administrator
+
+PROBLEM: Can't access from other computers
+SOLUTION: Check Windows Firewall settings and allow Node.js
+
+PROBLEM: Database connection failed
+SOLUTION: Check internet connection and try again
+
+STOPPING THE SYSTEM
+===================
+- Close the command prompt window
+- Or press Ctrl+C in the command prompt
+
+RESTARTING THE SYSTEM
+=====================
+- Double-click "start.bat" again
+- Wait for it to start
+
+BACKUP YOUR DATA
+================
+- Your data is automatically backed up to the cloud
+- You can also export reports to Excel/PDF for local backup
+- Go to Reports page and click "Export Excel" or "Export PDF"
+
+SYSTEM REQUIREMENTS
+===================
+- Windows 10 or newer
+- 4GB RAM (8GB recommended)
+- 500MB free disk space
+- Internet connection
+- Web browser (Chrome, Firefox, Edge)
+
+SUPPORT
+=======
+- Check this file first for solutions
+- Ensure all requirements are met
+- Check browser console (F12) for error messages
+
+VERSION: 1.0.0
+LAST UPDATED: October 2025
+
+

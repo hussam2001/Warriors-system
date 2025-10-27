@@ -1,0 +1,99 @@
+╔═══════════════════════════════════════════════════════════════╗
+║  UPLOAD THESE FILES TO GITHUB - EXACT CHECKLIST              ║
+╚═══════════════════════════════════════════════════════════════╝
+
+✅ FILES TO UPLOAD (at ROOT level of GitHub repo):
+
+┌─────────────────────────────────────────────────────────────┐
+│ 📁 FOLDERS (upload the entire folder):                      │
+├─────────────────────────────────────────────────────────────┤
+│ ✅ app/              ← YOUR APP PAGES                        │
+│ ✅ components/       ← REACT COMPONENTS                     │
+│ ✅ public/           ← STATIC FILES (logo, etc.)            │
+│ ✅ utils/            ← UTILITY FUNCTIONS                     │
+│ ✅ types/            ← TYPESCRIPT TYPES                      │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│ 📄 FILES (at ROOT level):                                    │
+├─────────────────────────────────────────────────────────────┤
+│ ✅ .gitignore                                               │
+│ ✅ next.config.js                                           │
+│ ✅ package.json                                             │
+│ ✅ package-lock.json                                        │
+│ ✅ tsconfig.json                                            │
+│ ✅ tailwind.config.js                                       │
+│ ✅ postcss.config.js                                        │
+│ ✅ middleware.ts                                            │
+│ ✅ next-env.d.ts                                            │
+└─────────────────────────────────────────────────────────────┘
+
+❌ DO NOT UPLOAD:
+
+   node_modules/     ← Auto-excluded by .gitignore
+   .next/           ← Build folder
+   out/             ← Build folder
+   dist/            ← Build folder
+   electron/        ← Not needed for web
+   *.bat files      ← Windows scripts
+   *.vbs files      ← Windows scripts
+   .env files       ← Local environment
+   electron-start.bat
+   start.bat
+   etc.
+
+╔═══════════════════════════════════════════════════════════════╗
+║  CRITICAL: UPLOAD THESE FILES AT ROOT LEVEL!                 ║
+║  ⚠️  NOT inside a subfolder!                                 ║
+║  ⚠️  package.json should be at the TOP of GitHub repo!      ║
+╚═══════════════════════════════════════════════════════════════╝
+
+STRUCTURE ON GITHUB SHOULD BE:
+
+WARRIORS/
+├── .gitignore          ← At root!
+├── next.config.js      ← At root!
+├── package.json        ← At root!
+├── tsconfig.json       ← At root!
+├── tailwind.config.js  ← At root!
+├── postcss.config.js   ← At root!
+├── middleware.ts       ← At root!
+├── next-env.d.ts       ← At root!
+├── app/                ← At root!
+├── components/         ← At root!
+├── public/             ← At root!
+├── utils/              ← At root!
+└── types/              ← At root!
+
+❌ NOT LIKE THIS (subfolder):
+
+WARRIORS/
+└── Warriors system/    ← WRONG! NO SUBFOLDERS!
+    ├── package.json
+    ├── app/
+    etc.
+
+═══════════════════════════════════════════════════════════════
+
+✅ AFTER UPLOADING TO GITHUB:
+
+1. Go to your GitHub repo
+2. Verify package.json is VISIBLE at the TOP
+3. Verify app/ folder is VISIBLE at the TOP
+4. Verify components/ folder is VISIBLE at the TOP
+5. Everything should be at ROOT level (no nested folders)
+
+✅ THEN GO TO RENDER:
+
+Settings (copy these EXACTLY):
+──────────────────────────────
+Service Type:     Web Service
+Root Directory:   (EMPTY - leave blank!)
+Build Command:    npm install && npm run build
+Start Command:    npm start
+Instance Type:    Free
+
+═══════════════════════════════════════════════════════════════
+
+🎯 THAT'S IT! FOLLOW THIS AND IT WILL WORK! 🚀
+

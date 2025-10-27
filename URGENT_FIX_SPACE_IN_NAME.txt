@@ -1,0 +1,50 @@
+🚨 URGENT FIX NEEDED 🚨
+═══════════════════════════════════════
+
+ERROR: Space in folder name is causing issues!
+
+Your folder is named: "Warriors system" (with a SPACE)
+
+This is causing Render to fail because spaces in paths cause problems.
+
+═══════════════════════════════════════
+SOLUTION: You have 2 options
+═══════════════════════════════════════
+
+OPTION 1: FIX ON GITHUB (BEST) ⭐
+─────────────────────────────────
+Rename the folder on GitHub:
+1. Go to https://github.com/hussam2001/WARRIORS
+2. Find the folder "Warriors system"
+3. Rename it to "warriors-system" (no space, lowercase with hyphen)
+4. In Render, set Root Directory to: warriors-system
+5. Save and redeploy
+
+OPTION 2: USE EXACT PATTERN
+────────────────────────────
+If you can't rename on GitHub:
+Try encoding the space as "%20"
+
+In Render Root Directory, try:
+"Warriors%20system"
+
+OR try this exact syntax:
+'Warriors system'
+
+═══════════════════════════════════════
+EASIEST FIX: Option 1 (Recommended)
+═══════════════════════════════════════
+
+1. Go to GitHub
+2. Rename folder "Warriors system" → "warriors-system"
+3. In Render: Root Directory = warriors-system
+4. Save
+5. DONE!
+
+═══════════════════════════════════════
+
+The folder name "Warriors system" (with space) is the problem!
+Either rename it OR try "%20" in Render.
+
+Try: Root Directory = "Warriors%20system"
+
